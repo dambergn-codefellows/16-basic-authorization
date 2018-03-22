@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/dambergn-codefellows/16-basic-authorization/issues"
   },
-  "homepage": "https://github.com/dambergn-codefellows/16-basic-authorization#readme"
+  "homepage": "https://github.com/dambergn-codefellows/16-basic-authorization#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "superagent": "^3.8.2"
+  }
 }

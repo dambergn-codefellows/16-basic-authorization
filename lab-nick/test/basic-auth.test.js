@@ -28,7 +28,7 @@ describe('/api/signup', () => {
     });
   });
 
-  it.skip('should return status 400 if missing email', (done) => {
+  it('should return status 400 if missing email', (done) => {
     let params = getUserParams();
     delete params['email'];
 
@@ -41,7 +41,7 @@ describe('/api/signup', () => {
     });
   });
 
-  it.skip('should return status 400 if missing password', (done) => {
+  it('should return status 400 if missing password', (done) => {
     let params = getUserParams();
     delete params['password'];
 
@@ -54,7 +54,7 @@ describe('/api/signup', () => {
     });
   });
 
-  it.skip('should return status 200 with successful request', (done) => {
+  it('should return status 200 with successful request', (done) => {
     let params = getUserParams();
 
     superagent.post(SIGNUP_URL)
