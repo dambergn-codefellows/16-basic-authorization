@@ -72,3 +72,5 @@ userSchema.methods.generateToken = function () {
       .catch(err => reject(err));
   });
 };
+
+module.exports = mongoose.model('user', userSchema);
